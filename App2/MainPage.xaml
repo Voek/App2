@@ -20,7 +20,7 @@
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Left" Height="184" Margin="10,10,0,0" TextWrapping="Wrap" Text="Enter some text" VerticalAlignment="Top" Width="274" FontSize="20"/>
         <TextBox x:Name="txtInput" Grid.Column="1" HorizontalAlignment="Left" Height="184" Margin="22,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="516"/>
-        <Button x:Name="btnOK" Content="OK" Grid.Column="1" HorizontalAlignment="Left" Height="120" Margin="22,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="516" FontSize="20"/>
+        <Button x:Name="btnOK" Content="OK" Grid.Column="1" HorizontalAlignment="Left" Height="120" Margin="22,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="516" FontSize="20" Click="btnOK_Click"/>
         <TextBlock x:Name="txtOutput" Grid.Column="1" HorizontalAlignment="Left" Height="192" Margin="22,10,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="516" FontSize="20"/>
 
     </Grid>
